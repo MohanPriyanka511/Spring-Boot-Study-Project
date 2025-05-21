@@ -19,7 +19,7 @@ A simple Spring Boot project that demonstrates how to:
 - Return personalized greeting messages
   
 ### 📁 Endpoints
-
+#### ✅ GET Endpoints
 | Method | Endpoint            | Description                                |
 |--------|---------------------|--------------------------------------------|
 | GET    | `/hello`            | Returns a simple hello message             |
