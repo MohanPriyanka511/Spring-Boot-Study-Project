@@ -3,21 +3,21 @@
 
 # Spring Boot Projects
 
-This repository contains two basic Spring Boot applications developed for learning and demonstration purposes:
+This repository contains basic Spring Boot applications developed for learning and demonstration purposes:
 
-1. **Greeting API** – A simple REST API to return greeting messages using GET methods.
-2. **MySQL CRUD API** – A basic RESTful CRUD application connected to a MySQL database.
+**Greeting API** – A simple REST API to return greeting messages using GET methods.
 
 ---
 
-## 🧪 Project 1: Greeting API (`springboot-greeting-api`)
+## 🧪 Project: Greeting API
 
 ### 📋 Description
 A simple Spring Boot project that demonstrates how to:
 - Create REST endpoints using `@RestController`
-- Handle GET requests
+- Handle both `GET` and `POST` requests
 - Read query parameters, optional parameters, and path variables
-
+- Return personalized greeting messages
+  
 ### 📁 Endpoints
 
 | Method | Endpoint            | Description                                |
@@ -27,3 +27,10 @@ A simple Spring Boot project that demonstrates how to:
 | GET    | `/greet2`            | Returns greeting with default name         |
 | GET    | `/greet/{name}`     | Returns greeting using path variable       |
 
+
+#### ✅ POST Endpoints
+
+| Method | Endpoint            | Description                                |
+|--------|---------------------|--------------------------------------------|
+| POST   | `/hello`            | Returns a static welcome message           |
+| POST   | `/greet`            | Returns greeting using query parameter     |
